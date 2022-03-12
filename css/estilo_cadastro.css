@@ -1,0 +1,111 @@
+@import url('./estilo.css');
+
+
+/* Formulario */
+
+/* .formulario-cadastro{
+    width: 50%;
+} */
+
+body {
+    background-color: #f4f3f0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+section h2 {
+    margin-top: 50px;
+    font-size: 1.8rem;
+
+}
+
+section p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.form-cadastro {
+    background-color: white;
+    border-radius: 10px;
+    /* margin: 0 10px; */
+    box-shadow: 0 8px 40px 0 rgb(0 0 0 / 20%);
+    width: 100%;    
+    padding: 10px 20px;
+}
+
+.form-cadastro a{
+    color:#747976;
+    /* font-size:3rem; */
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 1600px) {
+    
+    .form-cadastro{
+        display: flex;
+        justify-content: center;
+            margin: 0 auto;            
+            width: 30%;
+    }
+}
+
+
+
+
+
+.form-quantidade-filhos {
+    font-size: 1.2rem;
+
+}
+
+.radio-personalizado {
+    color: black;
+    background-color: transparent;
+    border: 1px solid #42CD8C;
+    padding: 3px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 100px;
+    margin: 0 5px;
+}
+
+.form-dados-texto {
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px 25px; */
+}
+
+.form-entrada-dados-texto {
+    padding: 30px 90px 5px 0;
+    font-size: 1rem;
+    line-height: 1.15;
+    border: none;
+    border-bottom: 2px solid #42cd8c48;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+/* ---------------------------------------------------------------------- */
+.form-botao-avancar {
+    background-color: #42CD8C;
+    padding: 13px 85px;
+    border-radius: 100px;
+    background: linear-gradient(130deg, #41cd8c, #00b698);
+    box-shadow: 0 8px 40px -5px #a6e8c9;
+}
+
+.form-botao-avancar a {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
